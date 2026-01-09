@@ -61,18 +61,20 @@
 
 /* banner-section */
 .banner-section{
-    border: 1px solid black;
+    border: 1px solid white;
     width: 1600px;
     height: 674px;
     margin: 0 auto;
+    
     background-image: url('../images/hero-bg.png');
 }
 .banner-section .banner-container{
-    border: 1px solid red;
+    
     width: 1360px;
     height: 379px;
     margin-left: 120px;
-    margin-top: 115.5px;
+   margin-top: 115.5px;
+    margin-bottom: 179.5px;
 }
 .btn2-container{
     margin-left: 565.5px;
@@ -134,3 +136,76 @@
    opacity: 100%;
    background: none;
 }
+
+/* Notes Section */
+.notes-section{
+    /* border: 1px solid red; */
+    width: 1600px;
+    height:500px;
+    margin: 0 auto;
+   background-color: #FFFFFF;
+
+}
+
+
+.notes-title{
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.notes-title h1{
+    font-size: 48px;
+    color: #001931;
+}
+.notes-title p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.notes-card{
+    
+    width: 1360px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+    align-items: center;
+}
+.notes-card .card img{
+    color: #30B868;
+    background-color: #F95555;
+    border: 1px solid red;
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    margin-top: 83.88px;
+    margin-left: 144.93px;
+ }
+
+ .notes-card .card{
+    /* border: 1px solid black; */
+    width: 322px;
+    height: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px #00000018;
+    border-bottom: none;
+   
+ }
+ .card h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #001931;
+    
+ }
+ .card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 20px;
+ }

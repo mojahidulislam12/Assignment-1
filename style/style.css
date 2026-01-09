@@ -17,7 +17,7 @@
     }
 
 .header nav{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1600px;
     height: 92px;
     display: flex;
@@ -57,4 +57,80 @@
     border-radius: 4px;
     background-color: #469165;
     color: #FFFFFF;
+}
+
+/* banner-section */
+.banner-section{
+    border: 1px solid black;
+    width: 1600px;
+    height: 674px;
+    margin: 0 auto;
+    background-image: url('../images/hero-bg.png');
+}
+.banner-section .banner-container{
+    border: 1px solid red;
+    width: 1360px;
+    height: 379px;
+    margin-left: 120px;
+    margin-top: 115.5px;
+}
+.btn2-container{
+    margin-left: 565.5px;
+}
+.btn2{
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    color: #30B868;
+    background-color: #FFFFFF;
+}
+.text-item{
+    text-align: center;
+}
+.text-item h2{
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 16px;
+    line-height: 84px;
+}
+.text-item h3{
+    font-size: 72px;
+    font-weight: 700;
+    color: #30B868;
+   
+    line-height: 84px;
+}
+.text-item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.btn-items{
+    text-align: center;
+    margin-top: 32px;
+    
+}
+.btn-items .btn3{
+    width: 251px;
+    height: 51px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.btn-items .btn4{
+    border: 1px solid white;
+    width: 198px;
+    height: 52px;
+   border-radius: 4px;
+    font-size: 16px;
+    font-weight:600 ;
+    color: #FFFFFF;
+   opacity: 100%;
+   background: none;
 }

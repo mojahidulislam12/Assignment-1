@@ -136,6 +136,9 @@
    opacity: 100%;
    background: none;
 }
+.btn4 i{
+    color: white;
+}
 
 /* Notes Section */
 .notes-section{
@@ -245,6 +248,9 @@
     margin-left: 60px;
     margin-top: 102px;
    
+ }
+ .brian-solution i{
+    color: #30B868;
  }
  .brian-solution h4{
     font-size:16px ;

@@ -240,9 +240,11 @@
  .brian-solution{
     /* border: 1px solid brown; */
     width: 700px;
+    
     height: 396px;
     margin-left: 60px;
     margin-top: 102px;
+   
  }
  .brian-solution h4{
     font-size:16px ;
@@ -262,14 +264,120 @@
  }
  .brian-solution1{
     margin-top: 40px;
+   
+   
 
  }
  .brian-solution h5{
+    
+    
     font-size: 16px;
     font-weight: 500;
     color: #001931;
    margin-top: 16px;
    
  }
+ /* access-section */
+
+ .access-section{
+    /* border: 1px solid black; */
+    width: 1600px;
+    height: 506px;
+    margin: 0 auto;
+ }
+ .early-access{
+    border: 1px solid white;
+    width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: -100px;
+ }
+ .early-access h6{
+    font-size:40px ;
+    font-weight: 700 ;
+    margin-top: 80px;
+ }
+ .early-access p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #627382;
+ }
+ .btn5{
+   width: 194px;
+   height: 52px;
+   border-radius: 4px;
+   background-color: #469165;
+   color: #FFFFFF;
+   margin-top: 24px;
+   box-shadow: 0 10px 20px #0000001b;
+   align-items: center;
+
+}
+.btn5 img{
+    width: 20px;
+    height: 20px;
+}
+
+/* footer */
+
+.footer{
+    width: 1600px;
+    height: 348px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-color: #001931;
+    margin-top: -20px;
+}
+.footer-container1{
+    width: 1360px;
+    height: 64px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 120px;
+   
+}
+.footer-icons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 16px;
+    border-radius: 1000px
+    
+   
+}
+
+.social-section p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 107px;
+   
+}
+.footer-container2{
+    width: 1360px;
+    height: 54px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+   
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+
+}
+.footer-container2 p{
+    margin-top: 30px;
+}
+.footer-container2 hr{
+    color: #E5E7EB;
+}
+
 
  
